@@ -1,0 +1,60 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(255,201,214);
+}
+
+.nav {
+  position: relative;
+  z-index: 4;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
+main {
+  position: absolute;
+  z-index: 4;
+  left: 300px;
+  right: 300px;
+
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 10%;
+}
+
+.site-wrapper {
+  height: 550px;
+}
+
+.parallax {
+  background-image: url("stock/pattern4.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  height: 500px;
+}
+
+.space {
+  background: transparent;
+  margin-bottom: 30px;
+  width: 100px;
+}
+
+.space-2 {
+  background: transparent;
+  height: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+div.header {
+  width:  50px;
+  height: 75px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}

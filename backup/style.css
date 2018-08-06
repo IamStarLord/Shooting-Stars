@@ -1,0 +1,98 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(255,201,214);
+}
+
+.nav {
+  position: relative;
+  z-index: 4;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
+main {
+  position: absolute;
+  z-index: 4;
+  left: 300px;
+  right: 300px;
+
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 10%;
+}
+
+.site-wrapper {
+  height: 550px;
+}
+
+.parallax {
+  background-image: url("stock/pattern4.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  height: 500px;
+}
+
+.space {
+  background: transparent;
+  margin-bottom: 30px;
+  width: 100px;
+}
+
+.space-2 {
+  background: transparent;
+  height: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.img_wrap {
+  position:relative;
+  height: 200px;
+  width: 257px;
+}
+
+.img_description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  transition: opacity .2s, visibility .2s;
+}
+
+.img_wrap: hover .img_description {
+  visibility: visible;
+  opacity:1;
+}
+
+.thumbnail {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+.thumbnail:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+div.header {
+  background-img: url("stock/test.png");
+  width:  100px;
+  height: 75px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}

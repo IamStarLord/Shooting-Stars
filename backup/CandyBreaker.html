@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | BLock_Breaker</title>
+    <link rel="stylesheet" href="../static/styles/CandyBreaker/TemplateData/style.css">
+    <link rel="shortcut icon" href="../static/styles/CandyBreaker/TemplateData/favicon.ico" />
+    <script src="../static/styles/CandyBreaker/TemplateData/UnityProgress.js"></script>
+  </head>
+  <body class="template">
+    <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+      <br>
+      <div class="logo"></div>
+      <div class="fullscreen"><img src="../static/styles/CandyBreaker/TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+    </div>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    backgroundColor: "#222C36",
+    splashStyle: "Light",
+    dataUrl: "../static/styles/CandyBreaker/Release/CandyBreaker_04.data",
+    codeUrl: "../static/styles/CandyBreaker/Release/CandyBreaker_04.js",
+    asmUrl: "../static/styles/CandyBreaker/Release/CandyBreaker_04.asm.js",
+    memUrl: "../static/styles/CandyBreaker/Release/CandyBreaker_04.mem",
+  };
+</script>
+<script src="../static/styles/CandyBreaker/Release/UnityLoader.js"></script>
+
+  </body>
+</html>
